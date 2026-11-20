@@ -1,0 +1,16 @@
+name = "chronos"
+main = "src/index.js"
+compatibility_date = "2025-10-01"
+
+[assets]
+directory = "./public"
+binding = "ASSETS"
+run_worker_first = true
+
+[[d1_databases]]
+binding = "DB"
+database_name = "chronos"
+database_id = "66fd361d-6e98-493f-997c-db209f1e5264"
+
+# Secrets (set with `npx wrangler secret put NAME`, never put them here):
+#   NOTION_CLIENT_ID, NOTION_CLIENT_SECRET, ENC_KEY

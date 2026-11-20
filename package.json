@@ -1,0 +1,14 @@
+{
+  "name": "chronos",
+  "version": "1.0.0",
+  "description": "Chronos: time dashboard for a Notion Journal (Cloudflare Worker)",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy",
+    "db:init": "wrangler d1 execute chronos --remote --file schema.sql"
+  },
+  "devDependencies": {
+    "wrangler": "^4.165.0"
+  },
+  "private": true
+}

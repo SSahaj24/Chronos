@@ -1,0 +1,21 @@
+{
+  "name": "Chronos",
+  "short_name": "Chronos",
+  "description": "Where the time went: a heatmap of your Notion Journal.",
+  "id": "/",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#191919",
+  "theme_color": "#191919",
+  "icons": [
+    { "src": "/icons/icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "/icons/icon-512.png", "sizes": "512x512", "type": "image/png" },
+    { "src": "/icons/icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ],
+  "shortcuts": [
+    { "name": "Log today", "short_name": "Log today", "description": "Add hours and tags for today", "url": "/log", "icons": [{ "src": "/icons/shortcut-today.png", "sizes": "96x96", "type": "image/png" }] },
+    { "name": "Today in Notion", "short_name": "In Notion", "description": "Open today's Journal entry in the Notion app", "url": "/today", "icons": [{ "src": "/icons/shortcut-today.png", "sizes": "96x96", "type": "image/png" }] },
+    { "name": "This week", "short_name": "This week", "description": "Jump to this week's hours", "url": "/#week", "icons": [{ "src": "/icons/shortcut-week.png", "sizes": "96x96", "type": "image/png" }] }
+  ]
+}
